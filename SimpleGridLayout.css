@@ -1,0 +1,53 @@
+body {
+  margin: 0 auto;
+  
+}
+.grid-container{
+  display: grid;
+  grid-gap: 10px;
+ grid-template-areas:  
+  "header header header header "
+  " nav article article ad"
+  " nav footer footer footer "
+
+}
+
+.grid-container>*{
+
+  background-color: yellow;
+  padding:30px;
+  color: black;
+
+}
+header{
+  grid-area: header;
+}
+nav{
+grid-area: nav;
+}
+article{
+grid-area:article;
+}
+footer{
+  grid-area:footer;
+}
+aside{
+  grid-area:ad;
+}
+.main-head {
+  height: 80px;
+}
+.main-footer{
+  height: 100px;
+}
+.main-nav  {
+  height: 800px;
+}
+.content{
+  height: 600px;
+}
+.ad{
+  height: 600px;
+}
+
+

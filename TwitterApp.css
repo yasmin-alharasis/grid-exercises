@@ -1,0 +1,27 @@
+body{
+	margin: 0 auto;
+
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 400px;
+}
+
+.Tweets{
+	background-color: #42f5f5;
+	
+}
+.Replies{
+	background-color: yellow;
+	
+}
+.Search{
+	background-color: #4287f5;
+}
+
+.Messages{
+background-color: pink;
+}

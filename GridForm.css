@@ -1,0 +1,35 @@
+*{
+	margin: 0 auto;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-auto-rows: 300px;
+	background-color: #e1e7eb;
+}
+.left{
+	margin-top: 30px;
+	margin-left : 60px;
+	grid-column-start:1; 
+}
+.right{
+
+	grid-column-start: 2;
+}
+.form-group{
+
+margin-top: 30px;
+}
+input{
+	  width:1024px;
+	  display: block;
+	  padding:10px;
+
+}
+
+
+textarea{
+
+	height: 180px;
+}
+
